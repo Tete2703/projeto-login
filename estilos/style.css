@@ -31,11 +31,12 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.523);
+    transition: .3s width, .3s height;
 }
 
 section#login > div#imagem {
     display: block;
-    background: #8c03ab url(../imagens/pexels-fabiano-cardoso-5654354\ \(1\).jpg);
+    background: #8c03ab url(../imagens/pexels-jill-burrow-6858608.jpg);
     background-size: cover;
     height: 250px;
 }
