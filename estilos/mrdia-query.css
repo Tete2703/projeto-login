@@ -7,6 +7,10 @@
     body {
         background-image: linear-gradient(to top, #51781a, #85c42b, #d436f7);
     }
+    section#login {
+        width: 80vw;
+        height: 350px;
+    }
     section#login > div#imagem {
         float: left;
         width: 30%;
@@ -17,6 +21,16 @@
         float: right;
         width: 70%;
     }
+    div.campo > input {
+    background-color: #85c42b;
+    font-size: 1em;
+    width: 181px;
+    height: 100%;
+    transform: translateY(-12px);
+    border: 1px;
+    border-radius: 5px;
+    padding: 4px;
+
     
 }
 
